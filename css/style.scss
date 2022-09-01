@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import "partials/colors";
+@import "partials/layout";
+@import "partials/_menu.scss";
+@import "partials/_typographic.scss";
+
+html {
+  scroll-behavior: smooth;
+
+  font-size: 62.5%;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #000;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #1765ad;
+  border-radius: 20px;
+}
+
+body {
+  scroll-behavior: smooth;
+
+  width: 100%;
+  height: 100vh;
+
+  background-color: $primary-color;
+
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
